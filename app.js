@@ -36,7 +36,7 @@ const pokemonSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
-  index: {
+  id: {
     type: Number,
     required: true,
   },
